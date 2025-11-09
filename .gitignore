@@ -1,37 +1,39 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Ignore crowdInApi details for translations - contact admin if you need these
+src/constants/localisation/crowdInApi.ts
 
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+sftp-config.json
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
 
 # testing
 /coverage
-
-# next.js
-/.next/
-/out/
 
 # production
 /build
 
 # misc
 .DS_Store
-*.pem
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# debug
+/.netlify
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
-.env*.local
-.env
+notes.txt
+.idea/
 
-# vercel
-.vercel
+.vscode/
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+package-lock.json
+
+cypress/videos
+cypress/screenshots
+cypress/fixtures/example.json
+
+.eslintcache
