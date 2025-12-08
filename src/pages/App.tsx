@@ -16,7 +16,7 @@ import { RedirectPathToSwapOnly } from './Swap/redirects'
 import { EN, allLanguages } from '../constants/localisation/languageCodes'
 import { LanguageContext } from '../hooks/LanguageContext'
 import { TranslationsContext } from '../hooks/TranslationsContext'
-
+import Airdrop from './Airdrop'
 import Menu from '../components/Menu'
 
 const AppWrapper = styled.div`
