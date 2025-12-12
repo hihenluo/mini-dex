@@ -26,7 +26,7 @@ To get started with EVM-Dex-Swap, clone this repository and install dependencies
 
 ```bash
 git clone https://github.com/hihenluo/mini-dex.git
-cd EVM-dex-swap
+cd mini-dex
 npm install
 ```
 
